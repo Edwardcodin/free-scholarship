@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Now</title>
+    <link rel="icon" href="SA picture/images 3.jpeg">
+    <style>
+      .work{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+         
+       }
+       .work{
+         width: 100%;
+         height: 400px;
+         background:url(sapics/);
+         background-repeat: no-repeat;
+         background-size:cover;
+         background-position: center;
+         animation:changer 20s ease-in-out infinite;
+       }
+ 
+       @keyframes changer{
+         0%{
+           background-image: url(sapics/images3.jpeg);
+         }
+         50%{
+           background-image: url(sapics/image5.jpeg);
+         }
+         100%{
+           background-image: url(sapics/images7.jpeg)
+         }
+       }
+ 
+     </style> 
+</head>
+<body style="background-color: black; color: white;" >
+  <div class="work"></div>
+    <h1 style="color: blueviolet;"><u> Fill the form with the rightful details</u></h1>
+   <h2> <i>Note that the details filled are neccesary and are very important:</i></h2>
+
+   
+     <form action="index.php" method="post">
+
+      <h3><label for="surname"> <i> Surname:</i></label>
+      <input type="surname" placeholder="Elijah..." ></h3>
+      
+      
+      <h3><label for="other names"><i>Othernames:</i></label> 
+    <input type="othername "  placeholder="David Samuel.."></h3>
+
+    <h3><label for="date"><i>Date of birth</i></label>
+    <input type="date"></h3>
+
+    <h3><label for="state"><i>state:</i></label>
+      <select name="state" id="state">
+        <option disabled selected>--Select--</option>
+        <option value="Abia">Abia</option>
+        <option value="Adamawa">Adamawa</option>
+        <option value="akwa ibom">Akwa Ibom</option>
+        <option value=" anambra">Anambra</option>
+        <option value="bauchi">Bauchi</option>
+        <option value="bayelsa">Bayelsa</option>
+        <option value="benue">Benue</option>
+        <option value="borno">Borno</option>
+        <option value="cross river">Cross River</option>
+        <option value="delta">Delta</option>
+        <option value="ebony">Ebonyi</option>
+        <option value="edo">Edo</option>
+        <option value="ekiti">Ekiti</option>
+        <option value="enugu">Enugu</option>
+        <option value="Gombe">Gombe</option>
+        <option value="imo">Imo</option>
+        <option value="jigawa">Jigawa</option>
+        <option value="kaduna">Kaduna</option>
+        <option value="kano">Kano</option>
+        <option value="katsina">Katsina</option>
+        <option value="kebbi">Kebbi</option>
+        <option value="kogi">Kogi</option>
+        <option value="kwara">Kwara</option>
+        <option value="Lagos">Lagos</option>
+        <option value="nasarawa">Nasarawa</option>
+        <option value="niger">Niger</option>
+        <option value="ogun">Ogun</option>
+        <option value="ondo">Ondo</option>
+        <option value="osun">Osun</option>
+        <option value="oyo">Oyo</option>
+        <option value="plateau">Plateau</option>
+        <option value="rivers">Rivers</option>
+        <option value="sokoto">Sokoto</option>
+        <option value="taraba">Taraba</option>
+        <option value="yobe">Yobe</option>
+        <option value="Zamfara">Zamfara</option>
+        <option value="fct">FCT</option>
+      </h3>
+      </select>
+       
+ 
+       <h3><label for="email"> <i>Email:</i></label>
+       <input type="email" placeholder="elijahdavidsamuel@gmail.com..."></h3> 
+
+       <h3> <label for="tel"><i>Tel.no:</i></label>
+        <input type="tel" placeholder="08137483738.."></h3> 
+        
+       <h3><label for="relationship status"><i> Relationship status:</i></label>
+        <br>
+      <input type="radio" value="single" name="title">
+      <label for="single" ><i>single</i></label> 
+      <br>
+      <input type="radio" value="married" name="title">
+      <label for="married"><i>married</i></label>
+      <br>
+      <input type="radio" value="divorced" name="title">
+      <label for="divorced"><i>divorced</i></label>
+     
+  <h3><label for="o' level" > <i>O'Level</i></label>
+  <select name="o'level" id="o'level">
+
+
+  <option value="WAEC">WAEC</option>
+  <option value="NECO">NECO</option>
+  <option value="GCE">GCE(WAEC)</option>
+  <option value="GCE">GCE(NECO)</option>
+  </select>
+
+
+<h2>APPLY FOR:  <a href="help.html" style="color:red"><small> Help</small></a>
+  
+<h3><input type="radio" id="masters" name="title">
+<label for="masters"><i>Master's degree</i></label></h3>
+
+<h3><input type="radio" id="bachelor" name="title">
+<label for="bachelor"><i>Bachelor's degree</i></label></h3>
+
+<h3><input type="radio" id="doctoral" name= "title">
+<label for="doctoral"><i>Doctoral degree</i></label></h3>
+
+<h3><input type="radio" id="associate" name="title">
+<label for="associate"> <i>Associate's degree</i></label></h3>
+<h4> Note:Candidate can only apply for one degree.</h4>
+<br>
+
+ 
+
+ <header style="background-color: blueviolet"><h2>NEXT OF KIN 1</h2>
+
+ <h3><label for="full name"><i>Full Name:</i></label>
+<input type="full name"  id="full name" placeholder="joy adinna mercy..."></h3>
+
+
+ 
+ <h3><label for="relationship"><i> Relationship:</i></label>
+ <select name="relationship" id="relationship" > 
+<option value="husband"> Husband</option>
+<option value="wife">Wife</option>
+<option value="father">Father</option> 
+<option value="mother">Mother</option>
+<option value="brother">Brother</option>
+<option value="sister"> Sister</option>
+<option value="colleague">Colleague</option>
+<option value="guardian">Guardian</option>
+</h3>
+ </select>
+
+ <h3> <label for="tel"><i>Tel.no:</i></label>
+  <input type="tel" placeholder="08137483738.."></h3>
+
+ <h3><label for="state"><i>state:</i></label>
+<select name="state" id="state" required>
+  <option value="Abia">Abia</option>
+  <option value="Adamawa">Adamawa</option>
+  <option value="akwa ibom">Akwa Ibom</option>
+  <option value=" anambra">Anambra</option>
+  <option value="bauchi">Bauchi</option>
+  <option value="bayelsa">Bayelsa</option>
+  <option value="benue">Benue</option>
+  <option value="borno">Borno</option>
+  <option value="cross river">Cross River</option>
+  <option value="delta">Delta</option>
+  <option value="ebony">Ebonyi</option>
+  <option value="edo">Edo</option>
+  <option value="ekiti">Ekiti</option>
+  <option value="enugu">Enugu</option>
+  <option value="Gombe">Gombe</option>
+  <option value="imo">Imo</option>
+  <option value="jigawa">Jigawa</option>
+  <option value="kaduna">Kaduna</option>
+  <option value="kano">Kano</option>
+  <option value="katsina">Katsina</option>
+  <option value="kebbi">Kebbi</option>
+  <option value="kogi">Kogi</option>
+  <option value="kwara">Kwara</option>
+  <option value="Lagos">Lagos</option>
+  <option value="nasarawa">Nasarawa</option>
+  <option value="niger">Niger</option>
+  <option value="ogun">Ogun</option>
+  <option value="ondo">Ondo</option>
+  <option value="osun">Osun</option>
+  <option value="oyo">Oyo</option>
+  <option value="plateau">Plateau</option>
+  <option value="rivers">Rivers</option>
+  <option value="sokoto">Sokoto</option>
+  <option value="taraba">Taraba</option>
+  <option value="yobe">Yobe</option>
+  <option value="Zamfara">Zamfara</option>
+  <option value="fct">FCT</option>
+</h3>
+</select>
+
+<h3><label for="town"><i>Town:</i></label>
+<input type="town" placeholder="ayetoro..."></h3>
+
+<h3><label for="address"><i>Home address:</i></label>
+<input type="address" placeholder="15,adeniran street,FACON B/stop.."></h3>
+
+<h3 style="color: beige"><i>Note:Make sure the person is aware of this information.</i></h3>
+
+
+
+</header>
+ 
+
+<header style="background-color: brown;"><h2>NEXT OF KIN 2</h2>
+
+ <h3><label for="full name"><i>Full Name:</i></label>
+<input type="full name"  id="full name"  placeholder="joy adinna mercy..."></h3>
+
+
+ 
+ <h3><label for="relationship"><i> Relationship:</i></label>
+ <select name="relationship" id="relationship" > 
+<option value="husband"> Husband</option>
+<option value="wife">Wife</option>
+<option value="father">Father</option> 
+<option value="mother">Mother</option>
+<option value="brother">Brother</option>
+<option value="sister"> Sister</option>
+<option value="colleague">Colleague</option>
+<option value="guardian">Guardian</option>
+</h3>
+ </select>
+
+<h3> <label for="tel"><i>Tel.no:</i></label>
+ <input type="tel"  placeholder="08137483738.."></h3>
+
+ <h3><label for="state"><i>state:</i></label>
+<select name="state" id="state" >
+        <option value="Abia">Abia</option>
+        <option value="Adamawa">Adamawa</option>
+        <option value="akwa ibom">Akwa Ibom</option>
+        <option value=" anambra">Anambra</option>
+        <option value="bauchi">Bauchi</option>
+        <option value="bayelsa">Bayelsa</option>
+        <option value="benue">Benue</option>
+        <option value="borno">Borno</option>
+        <option value="cross river">Cross River</option>
+        <option value="delta">Delta</option>
+        <option value="ebony">Ebonyi</option>
+        <option value="edo">Edo</option>
+        <option value="ekiti">Ekiti</option>
+        <option value="enugu">Enugu</option>
+        <option value="Gombe">Gombe</option>
+        <option value="imo">Imo</option>
+        <option value="jigawa">Jigawa</option>
+        <option value="kaduna">Kaduna</option>
+        <option value="kano">Kano</option>
+        <option value="katsina">Katsina</option>
+        <option value="kebbi">Kebbi</option>
+        <option value="kogi">Kogi</option>
+        <option value="kwara">Kwara</option>
+        <option value="Lagos">Lagos</option>
+        <option value="nasarawa">Nasarawa</option>
+        <option value="niger">Niger</option>
+        <option value="ogun">Ogun</option>
+        <option value="ondo">Ondo</option>
+        <option value="osun">Osun</option>
+        <option value="oyo">Oyo</option>
+        <option value="plateau">Plateau</option>
+        <option value="rivers">Rivers</option>
+        <option value="sokoto">Sokoto</option>
+        <option value="taraba">Taraba</option>
+        <option value="yobe">Yobe</option>
+        <option value="Zamfara">Zamfara</option>
+        <option value="fct">FCT</option>
+      </h3>
+</select>
+
+<h3><label for="town"><i>Town:</i></label>
+<input type="town"  placeholder="ayetoro..."></h3>
+
+<h3><label for="address"><i>Home address:</i></label>
+<input type="address" placeholder="15,adeniran street,FACON B/stop.."></h3>
+
+<h3 style="color: beige"><i>Note:Make sure the person is aware of this information.</i></h3>
+</header>
+
+<h3><label for="date"><i> Registration date:</i></label>
+<input type="date" ></h3>
+<br>
+
+<big>I, <textarea name="name" id="name " cols="30" rows="1"></textarea> confirm that the information i filled is correct and true.</big>
+<br>
+
+<h3><input type="checkbox" id="agree" >Agree to the <a href="terms.html">Terms</a> and <a href="privacy.html">Privacy</a> of this platform.
+
+
+     </form>
+     <br>
+     <br> 
+  <div style="width: 100px; margin: 10px 120px;">
+    <a href="payment.html" style="text-decoration: none; background-color: blue; color: white; padding: 10px 50px; border-radius: 30px;"  ><i> <big>submit</big></i></a>
+    
+  </div>  
+     
+    
+    
+    
+</body>
+</html>
